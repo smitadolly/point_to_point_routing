@@ -42,6 +42,18 @@ Attributes Requirement in the routable table are as below:
 
 
 
+Function for point to point routing:
+------------------------------------
+point_to_point_shortest_path(source_point_geom varchar, target_point_geom varchar, tbl varchar, distance double precision, directed boolean, has_reverse_cost boolean) )
+
+SQL Query to get the point to point routing
+-------------------------------------------
+SELECT * from point_to_point_shortest_path('source_point_geometry_in_text_format','target_point_geometry_in_text_format','road_networks',#{0.003},false, false)"
+
+
+
+
+
 
 
 
