@@ -2,7 +2,7 @@
 --Author:-Smita Kumari Dolly
 --Contributor to the Algorithm: Sugandha
 --Date:-3/12/2013
---Tested with Postgresql8.4, postgis1.5, pgrouting1.05 for 8.4
+--Tested with Postgresql9.1, postgis1.5, pgrouting1.05 for 8.4
 -------------------------------------------------------------------
 
 -------------------------------------------------------------------
